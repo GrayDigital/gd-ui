@@ -30,7 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "sb": "start-storybook -p 6006 -s public",
+    "sb": "start-storybook -p 6006 -s ./public",
     "build-sb": "build-storybook -s public",
     "sr": "node-env-run --exec 'semantic-release --ci false'"
   },

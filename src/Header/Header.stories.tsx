@@ -16,6 +16,24 @@ const Template: ComponentStory<typeof Header> = (args) => {
 export const DefaultHeader = Template.bind({});
 DefaultHeader.args = {
   Link: () => <a href="/careers">Join Us</a>,
-  asLogoLink: () => null,
-  LogoImage: () => <img src="../images/gray_logo_white.png" />,
+  asLogoLink: null,
+  LogoImage: () => (
+    <img
+      width={107}
+      height={30}
+      src="/gray_digital_logo_white.png"
+      alt="gray logo"
+    />
+  ),
 };
+
+// {
+//   /* <StaticImage
+//   placeholder="none"
+//   layout="fixed"
+//   width={107}
+//   height={30}
+//   src="../images/gray_digital_logo_white.png"
+//   alt="Gray Digital Logo"
+// />; */
+// }

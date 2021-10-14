@@ -4,17 +4,6 @@ import { MobileNav } from "./MobileNav";
 import { NavLink } from "./NavLink";
 import { GrLinkedinOption } from "react-icons/gr";
 
-{
-  /* <StaticImage
-  placeholder="none"
-  layout="fixed"
-  width={107}
-  height={30}
-  src="../images/gray_digital_logo_white.png"
-  alt="Gray Digital Logo"
-/>; */
-}
-
 // Declaring type of props - see "Typing Component Props" for more examples
 type HeaderProps = {
   LogoImage?: any;
@@ -30,7 +19,7 @@ export const Header = ({ LogoImage, Link, asLogoLink }: HeaderProps) => {
           <Flex as="nav" justify="space-between">
             <HStack spacing="8">
               <Box as={asLogoLink} to="/" rel="home">
-                {LogoImage}
+                <LogoImage />
               </Box>
             </HStack>
             <Flex align="center">
@@ -50,9 +39,7 @@ export const Header = ({ LogoImage, Link, asLogoLink }: HeaderProps) => {
                   <Link to="/careers">Join Us</Link>
                 </Button>
               </HStack>
-              <Box ml="5">
-                <MobileNav />
-              </Box>
+              <Box ml="5">{/* <MobileNav /> */}</Box>
             </Flex>
           </Flex>
         </Box>
