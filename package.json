@@ -32,7 +32,7 @@
     "eject": "react-scripts eject",
     "sb": "start-storybook -p 6006 -s ./public",
     "build-sb": "build-storybook -s public",
-    "sr": "node-env-run --exec 'semantic-release --ci false'"
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {
     "extends": "react-app",
