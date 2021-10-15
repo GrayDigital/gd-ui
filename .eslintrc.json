@@ -1,0 +1,28 @@
+{
+  "plugins": ["react", "package-json", "github", "@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:github/recommended",
+    "plugin:package-json/recommended",
+    "plugin:import/typescript"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "rules": { "filenames/match-regex": "off" },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

@@ -1,10 +1,9 @@
-import { Box, Flex, HStack, Button } from "@chakra-ui/react";
-import * as React from "react";
+import { Box, Button, Flex, HStack } from "@chakra-ui/react";
+import { GrLinkedinOption } from "react-icons/gr";
 import { MobileNav } from "./MobileNav";
 import { NavLink } from "./NavLink";
-import { GrLinkedinOption } from "react-icons/gr";
+import React from "react";
 
-// Declaring type of props - see "Typing Component Props" for more examples
 type HeaderProps = {
   LogoImage?: any;
   asLogoLink?: any;
@@ -39,7 +38,9 @@ export const Header = ({ LogoImage, Link, asLogoLink }: HeaderProps) => {
                   <Link to="/careers">Join Us</Link>
                 </Button>
               </HStack>
-              <Box ml="5">{/* <MobileNav /> */}</Box>
+              <Box ml="5">
+                <MobileNav />
+              </Box>
             </Flex>
           </Flex>
         </Box>
