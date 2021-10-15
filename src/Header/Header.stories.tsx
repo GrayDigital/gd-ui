@@ -1,8 +1,6 @@
-import React from "react";
-
-import { ComponentStory, ComponentMeta } from "@storybook/react";
-
+import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Header } from "./Header";
+import React from "react";
 
 export default {
   title: "Header",
@@ -15,9 +13,9 @@ const Template: ComponentStory<typeof Header> = (args) => {
 
 export const DefaultHeader = Template.bind({});
 DefaultHeader.args = {
-  Link: () => <a href="/careers">Join Us</a>,
+  Link: <a href="/careers">Join Us</a>,
   asLogoLink: null,
-  LogoImage: () => (
+  LogoImage: (
     <img
       width={107}
       height={30}

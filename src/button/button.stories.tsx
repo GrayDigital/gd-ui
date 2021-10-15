@@ -1,7 +1,6 @@
-import React from "react"
-import { Container, HStack, Stack } from "@chakra-ui/react"
-import { Button } from "./Button"
-
+import { Button } from "./Button";
+import { Container } from "@chakra-ui/react";
+import React from "react";
 
 export default {
   title: "Button",
@@ -12,7 +11,7 @@ export default {
       </Container>
     ),
   ],
-}
+};
 
 export const basic = () => (
   <>
@@ -27,4 +26,4 @@ export const basic = () => (
     <Button colorScheme="orange">Button</Button>
     <Button colorScheme="yellow">Button</Button>
   </>
-)
+);
