@@ -1,9 +1,10 @@
-name: "Lint PR"
+name: "Pull Request Linting"
 
 on: [pull_request]
 
 jobs:
   main:
+    name: PR Semantic Title
     runs-on: ubuntu-latest
     steps:
       - name: semantic-pull-request
