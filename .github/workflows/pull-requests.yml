@@ -3,11 +3,11 @@ name: "Pull Request Linting"
 on: [pull_request]
 
 jobs:
-  main:
-    name: PR Semantic Title
+  eslint:
+    name: eslint
     runs-on: ubuntu-latest
     steps:
-      - name: semantic-pull-request
-        uses: amannn/action-semantic-pull-request@v3.4.2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Run eslint
+        run: |
+          npm ci
+          npm run lint
