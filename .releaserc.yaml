@@ -17,6 +17,8 @@ verifyConditions:
 analyzeCommits:
   - path: "@semantic-release/commit-analyzer"
     releaseRules:
+      - type: "ci"
+        release: "patch"
       - type: "feat"
         release: "patch"
       - type: "hotfix"
@@ -44,21 +46,23 @@ generateNotes:
       - section: "Bug Fixes"
       # Uninmportent fix (CI testing, etc)
       - type: "fix"
-      - hidden: true
+      - hidden: false
       - type: "chore"
-      - hidden: true
+      - hidden: false
       - type: "docs"
-      - hidden: true
+      - hidden: false
       - type: "doc"
-      - hidden: true
+      - hidden: false
       - type: "style"
-      - hidden: true
+      - hidden: false
       - type: "refactor"
-      - hidden: true
+      - hidden: false
       - type: "perf"
-      - hidden: true
+      - hidden: false
+      - type: "perf"
+      - hidden: false
       - type: "test"
-      - hidden: true
+      - hidden: false
     presetConfig: true
 prepare:
   - path: "@semantic-release/git"
