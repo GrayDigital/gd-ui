@@ -16,7 +16,6 @@
     "sb": "start-storybook -p 6006 -s ./public",
     "build-sb": "build-storybook -s public",
     "semantic-release": "semantic-release",
-    "prepare": "husky install",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   },
   "dependencies": {
@@ -57,7 +56,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^7.0.2",
     "prettier": "2.4.1",
     "prettier-eslint": "^13.0.0",
     "semantic-release": "^18.0.0",
