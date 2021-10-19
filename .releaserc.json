@@ -1,0 +1,9 @@
+{
+  "branch": "main",
+  "estends": "semantic-release-npm-github-publish",
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github"
+  ]
+}
