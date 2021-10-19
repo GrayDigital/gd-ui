@@ -4,12 +4,6 @@
     "type": "git",
     "url": "git://github.com/GrayDigital/gd-ui.git"
   },
-  "release": {
-    "branches": [
-      "main",
-      "next"
-    ]
-  },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "tag": "latest",
