@@ -4,7 +4,7 @@ jobs:
   chromatic-deployment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2.3.5
       - uses: actions/setup-node@v2
         with:
           node-version: "14.17.6"
