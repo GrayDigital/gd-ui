@@ -4,7 +4,38 @@ on:
     branches:
       - main
 jobs:
+  eslint:
+    name: eslint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          check-latest: true
+          cache: "npm"
+      - name: Run eslint
+        run: |
+          npm ci
+          npm run lint
+  chromatic-deployment:
+    needs: eslint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm install
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
   semanticRelease:
+    needs: chromatic-deployment
     name: Release the Package
     runs-on: ubuntu-latest
     steps:

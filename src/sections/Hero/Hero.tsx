@@ -1,17 +1,12 @@
 import {
   Box,
   Button,
-  Circle,
   Heading,
   Img,
-  SimpleGrid,
   Stack,
-  Text,
-  VisuallyHidden,
   useColorModeValue as mode,
   LightMode,
 } from "@chakra-ui/react";
-import { FaPlay } from "react-icons/fa";
 
 type HeroProps = {
   Link?: any;
@@ -19,7 +14,7 @@ type HeroProps = {
 
 export const Hero = ({ Link }: HeroProps) => {
   return (
-    <Box as="section" color="white" pt="5.5rem">
+    <Box as="section" color="white" pt="5.5rem" pb="2">
       <Box mx="auto" px={{ base: "6", md: "8" }}>
         <Box textAlign="left" mb="5">
           <Heading

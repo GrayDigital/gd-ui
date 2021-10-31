@@ -70,5 +70,8 @@
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
+  },
+  "devDependencies": {
+    "storybook-addon-paddings": "^4.2.1"
   }
 }
