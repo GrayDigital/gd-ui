@@ -1,6 +1,6 @@
 {
   "name": "@graydigital/gd-ui",
-  "version": "1.2.17",
+  "version": "1.2.19",
   "repository": {
     "type": "git",
     "url": "https://github.com/graydigital/gd-ui.git"
@@ -34,8 +34,8 @@
     "@chakra-ui/react": "^1.6.10",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
-    "@semantic-release/changelog": "^6.0.0",
-    "@semantic-release/git": "^10.0.0",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
     "@snek-at/storybook-addon-chakra-ui": "1.0.0-beta.2",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
