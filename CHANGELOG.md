@@ -1,3 +1,5 @@
+### [1.2.23](https://github.com/graydigital/storybook/compare/v1.2.22...v1.2.23) (2021-10-31)
+
 ### [1.2.22](https://github.com/graydigital/storybook/compare/v1.2.21...v1.2.22) (2021-10-31)
 
 
