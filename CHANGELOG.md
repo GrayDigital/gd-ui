@@ -1,3 +1,5 @@
+### [1.2.21](https://github.com/graydigital/gd-ui/compare/v1.2.20...v1.2.21) (2021-10-31)
+
 ### [1.2.20](https://github.com/graydigital/gd-ui/compare/v1.2.19...v1.2.20) (2021-10-31)
 
 
