@@ -1,12 +1,11 @@
 import { Button } from "./Button";
 import { Container } from "@chakra-ui/react";
-import React from "react";
 
 export default {
-  title: "Button",
+  title: "core/Button",
   decorators: [
     (Story: any) => (
-      <Container mt="40px">
+      <Container>
         <Story />
       </Container>
     ),

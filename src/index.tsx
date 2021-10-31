@@ -1,12 +1,3 @@
-import { App } from "./App";
-import { ColorModeScript } from "@chakra-ui/react";
-import React from "react";
-import ReactDOM from "react-dom";
+export { Header } from "./sections/Header/Header";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <ColorModeScript />
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+export { Hero } from "./sections/Hero/Hero";

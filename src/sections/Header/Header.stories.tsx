@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import React from "react";
 
 export default {
-  title: "Header",
+  title: "Sections/Header",
   component: Header,
 } as ComponentMeta<typeof Header>;
 
@@ -12,10 +12,11 @@ const Template: ComponentStory<typeof Header> = (args) => {
 };
 
 export const DefaultHeader = Template.bind({});
+
 DefaultHeader.args = {
-  Link: <a href="/careers">Join Us</a>,
+  Link: () => <a href="/careers">Join Us</a>,
   asLogoLink: null,
-  LogoImage: (
+  LogoImage: () => (
     <img
       width={107}
       height={30}
@@ -24,14 +25,3 @@ DefaultHeader.args = {
     />
   ),
 };
-
-// {
-//   /* <StaticImage
-//   placeholder="none"
-//   layout="fixed"
-//   width={107}
-//   height={30}
-//   src="../images/gray_digital_logo_white.png"
-//   alt="Gray Digital Logo"
-// />; */
-// }
