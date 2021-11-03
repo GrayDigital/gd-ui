@@ -1,4 +1,4 @@
-import { Header, Hero, Brands } from "../../index";
+import { Header, HomepageHero, Hero, Brands } from "../../index";
 
 export const Homepage = () => {
   return (
@@ -15,7 +15,7 @@ export const Homepage = () => {
         Link={() => <a href="/careers">Join Us</a>}
         asLogoLink={null}
       />
-      <Hero Link={() => <a href="/services">Our Services</a>} />
+      <HomepageHero Link={() => <a href="/services">Our Services</a>} />
       <Brands />
     </>
   );

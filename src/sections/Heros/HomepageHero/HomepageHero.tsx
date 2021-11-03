@@ -8,11 +8,11 @@ import {
   LightMode,
 } from "@chakra-ui/react";
 
-type HeroProps = {
+type HomepageHeroProps = {
   Link?: any;
 };
 
-export const Hero = ({ Link }: HeroProps) => {
+export const HomepageHero = ({ Link }: HomepageHeroProps) => {
   return (
     <Box as="section" color="white" pt="5.5rem" pb="2">
       <Box mx="auto" px={{ base: "6", md: "8" }}>

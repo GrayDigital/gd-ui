@@ -10,6 +10,8 @@ const Template: ComponentStory<typeof Hero> = (args) => {
   return <Hero {...args} />;
 };
 
-export const HomepageHero = Template.bind({});
+export const DefaultHero = Template.bind({});
 
-HomepageHero.args = { Link: () => <a href="/services">Our Services</a> };
+DefaultHero.args = {
+  Link: () => <a href="/services">Our Services</a>,
+};
