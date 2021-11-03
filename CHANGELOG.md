@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/graydigital/storybook/compare/v1.3.1...v1.4.0) (2021-11-03)
+
+
+### Features
+
+* add regular hero ([86da876](https://github.com/graydigital/storybook/commit/86da876f86c27ac7a0e4b8c1a019a4daa69e0ac6))
+
 ### [1.3.1](https://github.com/graydigital/storybook/compare/v1.3.0...v1.3.1) (2021-11-03)
 
 ## [1.3.0](https://github.com/graydigital/storybook/compare/v1.2.23...v1.3.0) (2021-11-02)
