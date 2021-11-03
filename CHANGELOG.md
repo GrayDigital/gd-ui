@@ -1,3 +1,5 @@
+### [1.3.1](https://github.com/graydigital/storybook/compare/v1.3.0...v1.3.1) (2021-11-03)
+
 ## [1.3.0](https://github.com/graydigital/storybook/compare/v1.2.23...v1.3.0) (2021-11-02)
 
 
