@@ -24,7 +24,7 @@ jobs:
         run: npm ci
       - name: Githup Package Publish
         run: |
-          npm publish
           npm version
+          npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
