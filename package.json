@@ -47,7 +47,7 @@
     "conventional-changelog": "^3.1.24",
     "conventional-changelog-conventionalcommits": "^4.6.1",
     "eslint": "^8.2.0",
-    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-config-airbnb-typescript": "^15.0.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^4.0.0",
