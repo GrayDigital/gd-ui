@@ -37,7 +37,7 @@ export const Hero = ({ Link }: HeroProps) => {
         maxW={{ base: "xl", md: "7xl" }}
         mx="auto"
         px={{ base: "6", md: "8" }}
-        h="15"
+        h="full"
         zIndex={1}
         position="relative"
       >
