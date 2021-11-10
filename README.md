@@ -1,4 +1,10 @@
+# Storybook
+
+<!-- markdownlint-disable -->
+
 <a href="https://<branch>--618c059790d3e7003af59018.chromatic.com" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
+
+<!-- markdownlint-restore -->
 
 ## Goals
 
@@ -16,10 +22,10 @@ Create a UI framework that forms the basis for Gray Digital's web presence.
 
 Utilizes Chakra-UI Pro Components
 
-- https://pro.chakra-ui.com/components/marketing/logo-grid
+- <https://pro.chakra-ui.com/components/marketing/logo-grid>
 
 ## Chromatic
 
-Latest Builds: https://www.chromatic.com/builds?appId=618c059790d3e7003af59018
+Latest Builds: <https://www.chromatic.com/builds?appId=618c059790d3e7003af59018>
 
 If you're a collaborator on this repo, you should have auto access to chromatic when you follow the above url.
