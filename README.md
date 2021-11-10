@@ -20,9 +20,9 @@ Create a UI framework that forms the basis for Gray Digital's web presence.
 
 ## Design
 
-Utilizes Chakra-UI Pro Components
+Utilizes Chakra-UI Pro Components. Gray has rights to the Application and Marketing package. Reachout to @ariperez for any of the code.
 
-- <https://pro.chakra-ui.com/components/marketing/logo-grid>
+- <https://pro.chakra-ui.com/components>
 
 ## Chromatic
 
