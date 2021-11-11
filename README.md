@@ -2,7 +2,7 @@
 
 <!-- markdownlint-disable -->
 
-<a href="https://<branch>--618c059790d3e7003af59018.chromatic.com" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
+<a href="https://main--618c059790d3e7003af59018.chromatic.com" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg"></a>
 
 <!-- markdownlint-restore -->
 
