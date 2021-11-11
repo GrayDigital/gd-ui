@@ -16,7 +16,7 @@ export const Brands = ({ LogoImage, Link, asLogoLink }: BrandsProps) => {
         px={{ base: "6", md: "8" }}
       >
         <Box textAlign="center">
-          <Heading size="lg" mb="4">
+          <Heading size="xl" mb="4">
             Who we’ve worked with.
           </Heading>
         </Box>

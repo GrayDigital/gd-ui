@@ -1,12 +1,4 @@
-import {
-  Box,
-  Button,
-  Heading,
-  Img,
-  Stack,
-  useColorModeValue as mode,
-  LightMode,
-} from "@chakra-ui/react";
+import { Box, Button, Heading, Img, Stack, LightMode } from "@chakra-ui/react";
 
 type HomepageHeroProps = {
   Link?: any;

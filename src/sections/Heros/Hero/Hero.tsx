@@ -1,12 +1,5 @@
-import {
-  Box,
-  Button,
-  Center,
-  Heading,
-  LightMode,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Button, Center, Heading, LightMode } from "@chakra-ui/react";
+
 type HeroProps = {
   Link?: any;
 };
