@@ -1,4 +1,4 @@
-import { Box, Heading, SimpleGrid, Text } from "@chakra-ui/react";
+import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import * as Logos from "./BrandLogos";
 
 type BrandsProps = {

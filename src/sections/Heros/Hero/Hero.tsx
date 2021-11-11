@@ -1,4 +1,5 @@
-import { Box, Button, Center, Heading, LightMode } from "@chakra-ui/react";
+import { Box, Center, Heading } from "@chakra-ui/react";
+import { SectionButton } from "../../Button/SectionButton";
 
 type Props = {
   link?: { text: string; target: string };
@@ -45,19 +46,9 @@ export const Hero = ({ link }: Props) => {
           </Heading>
 
           {link && (
-            <LightMode>
-              <Button
-                bg="white"
-                color="black"
-                size="lg"
-                mt="8"
-                p="8"
-                fontSize="lg"
-                rounded="full"
-              >
-                <a href={link.target}>{link.text}</a>
-              </Button>
-            </LightMode>
+            <SectionButton colorScheme="light">
+              <a href={link.target}>{link.text}</a>
+            </SectionButton>
           )}
         </Center>
       </Box>

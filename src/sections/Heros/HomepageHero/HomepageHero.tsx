@@ -1,10 +1,10 @@
-import { Box, Button, Heading, Img, Stack, LightMode } from "@chakra-ui/react";
+import { Box, Heading, Img, Stack } from "@chakra-ui/react";
+import { SectionButton } from "../../Button/SectionButton";
 
-type HomepageHeroProps = {
-  Link?: any;
-};
-
-export const HomepageHero = ({ Link }: HomepageHeroProps) => {
+interface Props {
+  link: { text: string; target: string };
+}
+export const HomepageHero = ({ link }: Props) => {
   return (
     <Box as="section" color="white" pt="5.5rem" pb="2">
       <Box mx="auto" px={{ base: "6", md: "8" }}>
@@ -54,11 +54,9 @@ export const HomepageHero = ({ Link }: HomepageHeroProps) => {
           mb="20"
           spacing="4"
         >
-          <LightMode>
-            <Button bg="white" color="black" size="lg" rounded="full">
-              <Link />
-            </Button>
-          </LightMode>
+          <SectionButton colorScheme="light">
+            <a href={link.target}>{link.text}</a>
+          </SectionButton>
         </Stack>
       </Box>
     </Box>

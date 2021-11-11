@@ -1,4 +1,5 @@
-import { Box, useColorModeValue, Button, Heading } from "@chakra-ui/react";
+import { Box, Heading, useColorModeValue } from "@chakra-ui/react";
+import { SectionButton } from "../Button/SectionButton";
 
 type Props = {
   link?: { text: string; target: string };
@@ -26,22 +27,9 @@ export const Studies = ({ link }: Props) => {
         {/* TODO: This section button is common between sections. Extract this into
         it's own component for consistency and reduced boilerplate. */}
         {link && (
-          <Button
-            borderRadius="full"
-            fontSize="lg"
-            px="8"
-            py="8"
-            mt="8"
-            bg="#161616"
-            _hover={{
-              bg: "gray.600",
-            }}
-            _active={{
-              bg: "gray.600",
-            }}
-          >
+          <SectionButton>
             <a href={link.target}>{link.text}</a>
-          </Button>
+          </SectionButton>
         )}
       </Box>
     </>

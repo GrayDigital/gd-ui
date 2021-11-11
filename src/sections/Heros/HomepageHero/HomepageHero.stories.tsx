@@ -13,5 +13,8 @@ const Template: ComponentStory<typeof HomepageHero> = (args) => {
 export const DefaultHomepageHero = Template.bind({});
 
 DefaultHomepageHero.args = {
-  Link: () => <a href="/services">Our Services</a>,
+  link: {
+    text: "Some Homepage Link",
+    target: "/somewhere",
+  },
 };
