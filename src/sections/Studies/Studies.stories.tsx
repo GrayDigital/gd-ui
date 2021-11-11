@@ -13,5 +13,8 @@ const Template: ComponentStory<typeof Studies> = (args) => {
 export const StudiesSection = Template.bind({});
 
 StudiesSection.args = {
-  Link: () => <a href="/services">Our Services</a>,
+  link: {
+    text: "Sample Button Text",
+    target: "/",
+  },
 };

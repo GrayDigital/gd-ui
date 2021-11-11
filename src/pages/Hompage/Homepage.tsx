@@ -1,5 +1,4 @@
-import { Header, HomepageHero, Brands } from "../../index";
-import { Studies } from "../../sections/Studies/Studies";
+import { Header, HomepageHero, Brands, Hero, Studies } from "../../index";
 
 export const Homepage = () => {
   return (
@@ -18,8 +17,13 @@ export const Homepage = () => {
       />
       <HomepageHero Link={() => <a href="/services">Our Services</a>} />
       <Brands />
-      {/* TODO: Capitol hero section */}
-      <Studies />
+      <Hero link={{ text: "Our Mission", target: "/company" }} />
+      <Studies
+        link={{
+          text: "Explore Case Study",
+          target: "/work/department-of-homeland-security-assessment-generator",
+        }}
+      />
     </>
   );
 };
