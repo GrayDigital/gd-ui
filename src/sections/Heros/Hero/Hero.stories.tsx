@@ -13,5 +13,8 @@ const Template: ComponentStory<typeof Hero> = (args) => {
 export const DefaultHero = Template.bind({});
 
 DefaultHero.args = {
-  Link: () => <a href="/services">Our Services</a>,
+  link: {
+    text: "Sample Link",
+    target: "/",
+  },
 };

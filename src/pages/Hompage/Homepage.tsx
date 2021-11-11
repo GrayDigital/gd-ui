@@ -1,4 +1,4 @@
-import { Header, HomepageHero, Hero, Brands } from "../../index";
+import { Header, HomepageHero, Brands, Hero, Studies } from "../../index";
 
 export const Homepage = () => {
   return (
@@ -15,8 +15,17 @@ export const Homepage = () => {
         Link={() => <a href="/careers">Join Us</a>}
         asLogoLink={null}
       />
-      <HomepageHero Link={() => <a href="/services">Our Services</a>} />
+      <HomepageHero link={{ text: "Our Services", target: "/services" }} />
+
+      {/* TODO: Brands should be fed in from an external source. i.e. Headless CMS request */}
       <Brands />
+      <Hero link={{ text: "Our Mission", target: "/company" }} />
+      <Studies
+        link={{
+          text: "Explore Case Study",
+          target: "/work/department-of-homeland-security-assessment-generator",
+        }}
+      />
     </>
   );
 };

@@ -1,17 +1,11 @@
-import {
-  Box,
-  Button,
-  Center,
-  Heading,
-  LightMode,
-  SimpleGrid,
-  Text,
-} from "@chakra-ui/react";
-type HeroProps = {
-  Link?: any;
+import { Box, Center, Heading } from "@chakra-ui/react";
+import { SectionButton } from "../../Button/SectionButton";
+
+type Props = {
+  link?: { text: string; target: string };
 };
 
-export const Hero = ({ Link }: HeroProps) => {
+export const Hero = ({ link }: Props) => {
   return (
     <Box
       as="section"
@@ -47,22 +41,15 @@ export const Hero = ({ Link }: HeroProps) => {
           color="white"
           h="full"
         >
-          <Heading size="2xl" fontWeight="extrabold">
+          <Heading size="2xl" lineHeight="1.4">
             Delivering transformational services to government agencies.
           </Heading>
 
-          <LightMode>
-            <Button
-              bg="white"
-              color="black"
-              size="lg"
-              mt="15"
-              fontSize="lg"
-              rounded="full"
-            >
-              <Link />
-            </Button>
-          </LightMode>
+          {link && (
+            <SectionButton colorScheme="light">
+              <a href={link.target}>{link.text}</a>
+            </SectionButton>
+          )}
         </Center>
       </Box>
     </Box>
