@@ -6,6 +6,8 @@
 
 <!-- markdownlint-restore -->
 
+> Project Board: https://github.com/orgs/graydigital/projects/2/views/4?layout=board
+
 ## Goals
 
 Create a UI framework that forms the basis for Gray Digital's web presence.
