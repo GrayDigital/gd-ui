@@ -12,7 +12,7 @@ export const Hero = ({ link }: Props) => {
       bg="gray.800"
       py="12"
       position="relative"
-      h={{ base: "560px", md: "640px" }}
+      h="1000px"
       bgImage="url(/capitol.jpeg)"
       bgSize="cover"
       bgPosition="center"
