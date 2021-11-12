@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { HomepageHero } from "./HomepageHero";
 
 export default {
-  title: "Sections/HomepageHero",
+  title: "Sections/Heros",
   component: HomepageHero,
 } as ComponentMeta<typeof HomepageHero>;
 
