@@ -24,8 +24,6 @@ export const Studies = ({ link }: Props) => {
           Amazing clients have allowed us to produce work we are proud of.
         </Heading>
 
-        {/* TODO: This section button is common between sections. Extract this into
-        it's own component for consistency and reduced boilerplate. */}
         {link && (
           <SectionButton>
             <a href={link.target}>{link.text}</a>
