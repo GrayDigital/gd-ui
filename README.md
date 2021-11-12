@@ -38,4 +38,4 @@ If you're a collaborator on this repo, you should have auto access to chromatic 
       1. Changeset must be approved → Assign reviewers or approve yourself.
       2. Outstanding discussions must be resolved → Click ‘Resolve’ on discussions.
       3. All assigned reviewers must approve → Click ‘Approve’ in the PR screen tab bar.
-   3. Pull Request (PR) - After Chromatic approval, @developers approves the PR
+   2. Pull Request (PR) - After Chromatic approval, @developers approves the PR
