@@ -4,7 +4,7 @@ import {
   Brands,
   Hero,
   Studies,
-  Problems,
+  Impact,
 } from "../../index";
 
 export const Homepage = () => {
@@ -32,8 +32,17 @@ export const Homepage = () => {
           target: "/work/department-of-homeland-security-assessment-generator",
         }}
       />
-      {/* TODO: Background image, title, content can be customizable via CMS */}
-      <Problems link={{ text: "View Our Work", target: "/work" }} />
+      <Impact
+        title="We're solving big problems."
+        content="Our technologists have developed products to improve veterans'
+      access to disability benefits, built sensor networks that saved
+      lives in war-torn Syria, and launched secure and equitable
+      services for U.S. Citizenship and Immigration Services. At Gray,
+      we partner with government agencies to take on big problems and
+      deliver digital services that are purposeful, trustworthy, and
+      meet the needs of millions of Americans."
+        link={{ text: "View Our Work", target: "/work" }}
+      />
     </>
   );
 };
