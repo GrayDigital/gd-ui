@@ -29,3 +29,10 @@ Utilizes Chakra-UI Pro Components. Gray has rights to the Application and Market
 Latest Builds: <https://www.chromatic.com/builds?appId=618c059790d3e7003af59018>
 
 If you're a collaborator on this repo, you should have auto access to chromatic when you follow the above url.
+
+## CONTRIBUTIONS
+
+1. Submit a PR
+2. Approval
+   1. Chromatic - @prouduct or @developers team approves visual changes
+   2. Pull Request (PR) - After Chromatic approval, @developers approves the PR
