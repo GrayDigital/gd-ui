@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Heading, Text, useMediaQuery } from "@chakra-ui/react";
 import { SectionButton } from "../Button/SectionButton";
 

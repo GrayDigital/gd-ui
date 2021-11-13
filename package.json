@@ -6,8 +6,9 @@
     "url": "https://github.com/graydigital/storybook.git"
   },
   "files": [
-    "dist"
+    "src"
   ],
+  "main": "src/index.ts",
   "scripts": {
     "build-sb": "build-storybook -s public",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",

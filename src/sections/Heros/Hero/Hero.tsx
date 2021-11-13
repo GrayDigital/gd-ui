@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Center, Heading } from "@chakra-ui/react";
 import { SectionButton } from "../../Button/SectionButton";
 
