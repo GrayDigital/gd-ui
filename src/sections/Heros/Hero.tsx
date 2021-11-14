@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Box, Center, Heading } from "@chakra-ui/react";
-import { SectionButton } from "../../Button/SectionButton";
+import { SectionButton } from "../Button/SectionButton";
 
 type Props = {
   link?: { text: string; target: string };
