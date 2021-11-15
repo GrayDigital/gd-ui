@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import * as Logos from "./BrandLogos";
 

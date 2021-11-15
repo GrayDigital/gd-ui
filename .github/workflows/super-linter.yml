@@ -2,9 +2,9 @@ name: Github Organization CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   lint:
@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Lint Code Base
-        uses: github/super-linter@v4
+        uses: github/super-linter@v4.8.2
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main

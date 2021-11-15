@@ -1,3 +1,4 @@
+import * as React from "react";
 import { Box, Button, Flex, HStack } from "@chakra-ui/react";
 import { GrLinkedinOption } from "react-icons/gr";
 import { MobileNav } from "./MobileNav";
