@@ -31,7 +31,7 @@
     "@chakra-ui/icons": "^1.0.17",
     "@chakra-ui/react": "^1.6.12",
     "@emotion/react": "^11.5.0",
-    "@emotion/styled": "^11.3.0",
+    "@emotion/styled": "^11.6.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
     "@snek-at/storybook-addon-chakra-ui": "1.0.0-beta.2",
