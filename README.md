@@ -32,6 +32,8 @@ If you're a collaborator on this repo, you should have auto access to chromatic 
 
 ## CONTRIBUTIONS
 
+[WIP] - https://www.chromatic.com/docs/workflow
+
 1. Submit a PR
 2. Approval
    1. Chromatic - @prouduct or @developers team approves visual changes
