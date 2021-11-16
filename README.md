@@ -28,7 +28,7 @@ Utilizes Chakra-UI Pro Components. Gray has rights to the Application and Market
 
 Latest Builds: <https://www.chromatic.com/builds?appId=618c059790d3e7003af59018>
 
-If you're a collaborator on this repo, you should have auto access to chromatic when you follow the above url.
+If you're a collaborator on this repo, you should have auto access to chromatic when you follow the above URL.
 
 ## CONTRIBUTIONS
 
