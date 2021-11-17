@@ -1,4 +1,4 @@
-name: Chromatic
+name: Lint & Chromatic
 
 on:
   push:
