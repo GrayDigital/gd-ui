@@ -32,7 +32,7 @@ If you're a collaborator on this repo, you should have auto access to chromatic 
 
 ## CONTRIBUTIONS
 
-[WIP] - https://www.chromatic.com/docs/workflow
+Chromatic Workflow: <https://www.chromatic.com/docs/workflow>
 
 1. Submit a PR
 2. Approval
