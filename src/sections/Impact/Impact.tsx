@@ -8,6 +8,9 @@ interface Props {
   content: string;
 }
 
+/**
+ * @deprecated Use <SideBySide /> instead.
+ */
 export const Impact = ({ link, title, content }: Props) => {
   const [isSmallerThan1280] = useMediaQuery("(max-width: 1280px)");
 

@@ -25,20 +25,12 @@ export const SideBySideLeft = Template.bind({});
 
 SideBySideLeft.args = {
   ...common,
-  imageOn: "left",
+  contentOn: "left",
 };
 
 export const SideBySideRight = Template.bind({});
 
 SideBySideRight.args = {
   ...common,
-  title: "Sample Title",
-  content:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pellentesque, ligula vel maximus finibus, felis ipsum cursus tellus, vitae suscipit nisi velit vel elit. Nam in purus nisi. Phasellus sem quam, facilisis sit amet tellus sed, blandit eleifend turpis. Sed hendrerit porttitor velit sit amet varius. Proin libero leo, ullamcorper posuere interdum quis, rhoncus id risus. Aliquam in risus tincidunt, tempor erat ac, pretium ex. Aliquam ullamcorper quis enim eu aliquet.",
-  link: {
-    text: "Sample Link",
-    target: "/",
-  },
-  imageUrl: "american_flag.jpeg",
-  imageOn: "right",
+  contentOn: "right",
 };

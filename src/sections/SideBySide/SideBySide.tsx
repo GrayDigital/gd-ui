@@ -6,17 +6,18 @@ interface Props {
   link: { text: string; target: string };
   title: string;
   content: string;
+  contentOn: "left" | "right";
   imageUrl: string;
-  imageOn: "left" | "right";
 }
 
 export const SideBySide = ({
   link,
   title,
   content,
+  contentOn,
   imageUrl,
-  imageOn,
 }: Props) => {
+  // TODO: Investigate if these media queries are actually working properly.
   const [isSmallerThan1280] = useMediaQuery("(max-width: 1280px)");
 
   const navigateTo = (target: string) => {
@@ -26,18 +27,17 @@ export const SideBySide = ({
   return (
     <>
       {!isSmallerThan1280 && (
-        //   TODO: flexDirection based on imageOn prop
         <Box
           my="16"
           position="relative"
           display="flex"
-          flexDirection={imageOn === "right" ? "row-reverse" : "row"}
+          flexDirection={contentOn === "left" ? "row-reverse" : "row"}
         >
           <Box ml="16" width="50%" overflow="visible">
             <Box
               bgImage={`url(${imageUrl})`}
-              position={imageOn === "right" ? "relative" : "unset"}
-              left={imageOn === "right" ? "-50%" : ""}
+              position={contentOn === "left" ? "relative" : "unset"}
+              left={contentOn === "left" ? "-50%" : ""}
               width="140%"
               height="600px"
             >
@@ -65,7 +65,7 @@ export const SideBySide = ({
         <Box display="flex" flexWrap="wrap">
           <Box width="100%">
             <Box
-              bgImage="url(american_flag.jpeg)"
+              bgImage={`url(${imageUrl})`}
               bgRepeat="no-repeat"
               bgSize="cover"
               height="400px"
