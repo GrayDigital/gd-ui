@@ -4,6 +4,9 @@ import { SectionButton } from "./SectionButton";
 export default {
   title: "Sections/Button",
   component: SectionButton,
+  parameters: {
+    chromatic: { viewports: [375, 768, 1200] },
+  },
 } as ComponentMeta<typeof SectionButton>;
 
 const Template: ComponentStory<typeof SectionButton> = (args) => {

@@ -5,7 +5,7 @@ export default {
   title: "Sections/Heros",
   component: HomepageHero,
   parameters: {
-    chromatic: { viewports: [320, 1200] },
+    chromatic: { viewports: [375, 768, 1200] },
   },
 } as ComponentMeta<typeof HomepageHero>;
 

@@ -4,6 +4,9 @@ import { Impact } from "./Impact";
 export default {
   title: "Sections/Impact",
   component: Impact,
+  parameters: {
+    chromatic: { viewports: [375, 768, 1200] },
+  },
 } as ComponentMeta<typeof Impact>;
 
 const Template: ComponentStory<typeof Impact> = (args) => {
