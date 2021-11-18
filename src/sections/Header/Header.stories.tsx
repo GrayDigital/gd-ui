@@ -5,6 +5,9 @@ import React from "react";
 export default {
   title: "Sections/Header",
   component: Header,
+  parameters: {
+    chromatic: { viewports: [375, 768, 1200] },
+  },
 } as ComponentMeta<typeof Header>;
 
 const Template: ComponentStory<typeof Header> = (args) => {

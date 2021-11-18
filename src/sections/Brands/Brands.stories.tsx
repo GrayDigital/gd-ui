@@ -5,6 +5,9 @@ import React from "react";
 export default {
   title: "Sections/Brands",
   component: Brands,
+  parameters: {
+    chromatic: { viewports: [375, 768, 1200] },
+  },
 } as ComponentMeta<typeof Brands>;
 
 const Template: ComponentStory<typeof Brands> = (args) => {
