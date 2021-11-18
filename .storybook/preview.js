@@ -1,4 +1,5 @@
 import theme from "../src/@chakra-ui/theme";
+
 export const parameters = {
   chakra: { theme },
   actions: { argTypesRegex: "^on[A-Z].*" },
