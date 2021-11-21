@@ -33,6 +33,8 @@ jobs:
       - name: Install Dependencies
         run: |
           npm ci
+          git config --global user.email "ari@gray.digital"
+          git config --global user.name "Ari P"
           a="${{ github.ref }}"
           b="${a##refs/tags/}"
           npm version "${b}"
