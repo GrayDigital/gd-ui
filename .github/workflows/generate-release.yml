@@ -33,7 +33,7 @@ jobs:
       - name: Install Dependencies
         run: |
           npm ci
-          npm version ${{ github.GITHUB_REF }}
+          npm version ${{ github.ref }}
       - name: NPM Package Publish
         run: |
           npm publish --access public
