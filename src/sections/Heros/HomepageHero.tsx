@@ -1,11 +1,14 @@
 import * as React from "react";
-import { Box, Heading, Img, Stack } from "@chakra-ui/react";
+import { Box, Heading, Stack } from "@chakra-ui/react";
 import { SectionButton } from "../Button/SectionButton";
 
 interface Props {
   link: { text: string; target: string };
+  Image: any;
+  title: string;
+  subtitle: string;
 }
-export const HomepageHero = ({ link }: Props) => {
+export const HomepageHero = ({ Image, title, subtitle, link }: Props) => {
   return (
     <Box as="section" color="white" pt="5.5rem" pb="2">
       <Box mx="auto" px={{ base: "6", md: "8" }}>
@@ -18,8 +21,7 @@ export const HomepageHero = ({ link }: Props) => {
             lineHeight="1.2"
             letterSpacing="tight"
           >
-            Gray is a human-centered digital services company using design and
-            technology to transform critical government services.
+            {title}
           </Heading>
         </Box>
 
@@ -30,7 +32,7 @@ export const HomepageHero = ({ link }: Props) => {
           rounded="lg"
           overflow="hidden"
         >
-          <Img alt="American Flag in Code" src="/american_flag_in_code.jpeg" />
+          <Image />
         </Box>
         <Box textAlign="left" mt="5">
           <Heading
@@ -41,11 +43,7 @@ export const HomepageHero = ({ link }: Props) => {
             lineHeight="1.4"
             letterSpacing=""
           >
-            We deploy highly-efficient, cross-functional digital service teams
-            to empower government agencies and civil servants. These
-            multi-disciplinary groups leverage agile software development,
-            DevOps, and human-centered design to deliver mission-critical
-            products with a purpose.
+            {subtitle}
           </Heading>
         </Box>
         <Stack

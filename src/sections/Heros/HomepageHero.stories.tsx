@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { HomepageHero } from "./HomepageHero";
+import { Box, Heading, Img, Stack } from "@chakra-ui/react";
 
 export default {
   title: "Sections/Heros",
@@ -20,4 +21,11 @@ DefaultHomepageHero.args = {
     text: "Some Homepage Link",
     target: "/somewhere",
   },
+  title:
+    "Gray is a human-centered digital services company using design and technology to transform critical government services. ",
+  subtitle:
+    "We deploy highly-efficient, cross-functional digital service teams to empower government agencies and civil servants. These multi-disciplinary groups leverage agile software development, DevOps, and human-centered design to deliver mission-critical products with a purpose. ",
+  Image: () => (
+    <Img alt="American Flag in Code" src="/american_flag_in_code.jpeg" />
+  ),
 };
