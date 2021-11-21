@@ -36,6 +36,7 @@ export const SideBySide = ({
           <Box ml="16" width="50%" overflow="visible">
             <Box
               bgImage={`url(${imageUrl})`}
+              bgSize="cover"
               position={contentOn === "left" ? "relative" : "unset"}
               left={contentOn === "left" ? "-50%" : ""}
               width="140%"
