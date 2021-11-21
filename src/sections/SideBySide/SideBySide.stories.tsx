@@ -18,13 +18,13 @@ const common = {
     text: "Sample Link",
     target: "/",
   },
-  imageUrl: "american_flag.jpeg",
 };
 
 export const SideBySideLeft = Template.bind({});
 
 SideBySideLeft.args = {
   ...common,
+  imageUrl: "storm_troopers.jpeg",
   contentOn: "left",
 };
 
@@ -32,5 +32,6 @@ export const SideBySideRight = Template.bind({});
 
 SideBySideRight.args = {
   ...common,
+  imageUrl: "american_flag.jpeg",
   contentOn: "right",
 };
