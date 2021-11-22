@@ -24,7 +24,7 @@ jobs:
         with:
           exitOnceUploaded: true
           token: ${{ secrets.GITHUB_TOKEN }}
-          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          projectToken: 8da9943f0ff5
   lint:
     name: Lint
     runs-on: ubuntu-latest
