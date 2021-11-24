@@ -14,9 +14,9 @@ const Template: ComponentStory<typeof Brands> = (args) => {
   return <Brands {...args} />;
 };
 
-export const DefaultBrands = Template.bind({});
+export const DefaultBrandsSection = Template.bind({});
 
-DefaultBrands.args = {
+DefaultBrandsSection.args = {
   Link: () => <a href="/careers">Join Us</a>,
   asLogoLink: null,
   LogoImage: () => (

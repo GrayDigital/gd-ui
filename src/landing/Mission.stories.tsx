@@ -10,9 +10,9 @@ const Template: ComponentStory<typeof Mission> = (args) => {
   return <Mission {...args} />;
 };
 
-export const DefaultMission = Template.bind({});
+export const DefaultMissionSection = Template.bind({});
 
-DefaultMission.args = {
+DefaultMissionSection.args = {
   link: {
     text: "Sample Link",
     target: "/",

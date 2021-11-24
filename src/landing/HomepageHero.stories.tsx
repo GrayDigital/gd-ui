@@ -14,9 +14,9 @@ const Template: ComponentStory<typeof HomepageHero> = (args) => {
   return <HomepageHero {...args} />;
 };
 
-export const DefaultHomepageHero = Template.bind({});
+export const DefaultHomepageHeroSection = Template.bind({});
 
-DefaultHomepageHero.args = {
+DefaultHomepageHeroSection.args = {
   link: {
     text: "Some Homepage Link",
     target: "/somewhere",
