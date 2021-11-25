@@ -52,7 +52,7 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.27.1",
-    "framer-motion": "^5",
+    "framer-motion": "^4",
     "prettier": "2.4.1",
     "prettier-eslint": "^13.0.0",
     "react": "^17.0.2",
@@ -60,7 +60,6 @@
     "react-focus-lock": "^2.5.2",
     "react-icons": "^4.3.1",
     "react-remove-scroll": "^2.4.3",
-    "semantic-release": "^18.0.0",
     "typescript": "^4.5.2"
   },
   "publishConfig": {
