@@ -1,14 +1,12 @@
 import * as React from "react";
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
-import * as Logos from "./BrandLogos";
 
 type BrandsProps = {
-  LogoImage?: any;
-  asLogoLink?: any;
-  Link?: any;
+  Logos: any[];
+  title: string;
 };
 
-export const Brands = ({ LogoImage, Link, asLogoLink }: BrandsProps) => {
+export const Brands = ({ Logos, title }: BrandsProps) => {
   return (
     <Box bg="white" color="black" as="section" pt="16" pb="24">
       <Box
@@ -18,7 +16,7 @@ export const Brands = ({ LogoImage, Link, asLogoLink }: BrandsProps) => {
       >
         <Box textAlign="center">
           <Heading size="xl" mb="4">
-            Who we’ve worked with.
+            {title}
           </Heading>
         </Box>
         <SimpleGrid
@@ -30,11 +28,10 @@ export const Brands = ({ LogoImage, Link, asLogoLink }: BrandsProps) => {
           fontSize="2xl"
           opacity={0.95}
         >
-          <Logos.Eop />
-          <Logos.Dod />
-          <Logos.Va />
-          <Logos.Dhs />
-          <Logos.Dia />
+          {/* <Logos.Eop /> */}
+          {Logos.map((Logo) => {
+            return <Logo />;
+          })}
         </SimpleGrid>
       </Box>
     </Box>

@@ -55,3 +55,8 @@ export const Dia = (props: HTMLChakraProps<"svg">) => (
     src="/brands/dia.png"
   />
 );
+export function map(
+  arg0: (Logo: JSX.IntrinsicAttributes) => JSX.Element
+): React.ReactNode {
+  throw new Error("Function not implemented.");
+}
