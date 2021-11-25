@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { SectionButton } from "./SectionButton";
 
 export default {
-  title: "Sections/Button",
+  title: "Shared/Button",
   component: SectionButton,
   parameters: {
     chromatic: { viewports: [375, 768, 1200] },

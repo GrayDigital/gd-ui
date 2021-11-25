@@ -1,12 +1,12 @@
 import * as React from "react";
 import { Box, Center, Heading } from "@chakra-ui/react";
-import { SectionButton } from "../Button/SectionButton";
+import { SectionButton } from "../shared/Button/SectionButton";
 
 type Props = {
   link?: { text: string; target: string };
 };
 
-export const Hero = ({ link }: Props) => {
+export const Mission = ({ link }: Props) => {
   return (
     <Box
       as="section"

@@ -1,22 +1,22 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
-import { Header } from "./Header";
+import { Brands } from "./Brands";
 import React from "react";
 
 export default {
-  title: "Sections/Header",
-  component: Header,
+  title: "Landing/Sections",
+  component: Brands,
   parameters: {
     chromatic: { viewports: [375, 768, 1200] },
   },
-} as ComponentMeta<typeof Header>;
+} as ComponentMeta<typeof Brands>;
 
-const Template: ComponentStory<typeof Header> = (args) => {
-  return <Header {...args} />;
+const Template: ComponentStory<typeof Brands> = (args) => {
+  return <Brands {...args} />;
 };
 
-export const DefaultHeader = Template.bind({});
+export const DefaultBrandsSection = Template.bind({});
 
-DefaultHeader.args = {
+DefaultBrandsSection.args = {
   Link: () => <a href="/careers">Join Us</a>,
   asLogoLink: null,
   LogoImage: () => (

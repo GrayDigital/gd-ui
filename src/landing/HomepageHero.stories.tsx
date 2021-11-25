@@ -1,9 +1,9 @@
 import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { HomepageHero } from "./HomepageHero";
-import { Box, Heading, Img, Stack } from "@chakra-ui/react";
+import { Img } from "@chakra-ui/react";
 
 export default {
-  title: "Sections/Heros",
+  title: "Landing/Sections",
   component: HomepageHero,
   parameters: {
     chromatic: { viewports: [375, 768, 1200] },
@@ -14,9 +14,9 @@ const Template: ComponentStory<typeof HomepageHero> = (args) => {
   return <HomepageHero {...args} />;
 };
 
-export const DefaultHomepageHero = Template.bind({});
+export const DefaultHomepageHeroSection = Template.bind({});
 
-DefaultHomepageHero.args = {
+DefaultHomepageHeroSection.args = {
   link: {
     text: "Some Homepage Link",
     target: "/somewhere",

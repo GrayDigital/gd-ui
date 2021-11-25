@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from "@storybook/react";
 import { SideBySide } from "./SideBySide";
 
 export default {
-  title: "Sections/SideBySide",
+  title: "Shared/Sections",
   component: SideBySide,
 } as ComponentMeta<typeof SideBySide>;
 

@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Box, Heading, Text, useMediaQuery } from "@chakra-ui/react";
-import { SectionButton } from "../Button/SectionButton";
+import { SectionButton } from "../../Button/SectionButton";
 
 interface Props {
   link: { text: string; target: string };
