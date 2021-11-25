@@ -28,9 +28,8 @@ export const Brands = ({ Logos, title }: BrandsProps) => {
           fontSize="2xl"
           opacity={0.95}
         >
-          {/* <Logos.Eop /> */}
           {Logos.map((Logo) => {
-            return <Logo />;
+            return Logo;
           })}
         </SimpleGrid>
       </Box>
