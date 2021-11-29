@@ -34,7 +34,7 @@
     "@snek-at/storybook-addon-chakra-ui": "1.0.0-beta.2",
     "@storybook/addon-actions": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
-    "@storybook/addon-links": "^6.3.12",
+    "@storybook/addon-links": "^6.4.0",
     "@storybook/node-logger": "^6.4.0",
     "@storybook/react": "^6.4.0",
     "@types/node": "^16.11.10",
