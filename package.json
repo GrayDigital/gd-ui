@@ -33,7 +33,7 @@
     "@emotion/styled": "^11.6.0",
     "@snek-at/storybook-addon-chakra-ui": "1.0.0-beta.2",
     "@storybook/addon-actions": "^6.4.1",
-    "@storybook/addon-essentials": "^6.4.0",
+    "@storybook/addon-essentials": "^6.4.1",
     "@storybook/addon-links": "^6.4.1",
     "@storybook/node-logger": "^6.4.1",
     "@storybook/react": "^6.4.1",
