@@ -8,7 +8,7 @@ jobs:
   chromatic-deployment:
     if: |
       github.actor != 'dependabot-preview[bot]' ||
-      !contains(github.event.commits[0].message, 'chore')"
+      !contains(github.event.commits[0].message, 'chore')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.0
