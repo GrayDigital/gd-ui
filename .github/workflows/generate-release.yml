@@ -14,6 +14,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
+          # trunk-ignore(actionlint/action)
           generate_release_notes: true
   publish-gpr:
     needs:

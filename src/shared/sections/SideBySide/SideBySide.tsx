@@ -21,6 +21,7 @@ export const SideBySide = ({
   const [isSmallerThan1280] = useMediaQuery("(max-width: 1280px)");
 
   const navigateTo = (target: string) => {
+    // trunk-ignore(eslint/no-undef)
     window.location.href = target;
   };
 

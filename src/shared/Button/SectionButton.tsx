@@ -3,6 +3,7 @@ import { Button } from "@chakra-ui/button";
 
 interface Props {
   colorScheme?: "light" | "dark";
+  // trunk-ignore(eslint/no-undef)
   children: JSX.Element | JSX.Element[] | string;
   onClick?: () => void;
 }
