@@ -1,5 +1,3 @@
-// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
-// https://github.com/microsoft/vscode-dev-containers/tree/v0.202.5/containers/typescript-node
 {
   "name": "Node.js & TypeScript",
   "runArgs": ["--init"],
@@ -10,20 +8,13 @@
     }
   },
 
-  // Set *default* container specific settings.json values on container create.
   "settings": {},
 
-  "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "extensions": ["trunk.io", "github.copilot"],
 
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
-
-  // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install",
-
-  // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-  // "remoteUser": "node",
+  "postCreateCommand": "npm i -g npm@latest && npm i",
+  "remoteUser": "node",
   "features": {
     "github-cli": "latest"
-  },
+  }
 }
