@@ -12,9 +12,6 @@ updates:
       interval: "daily"
     assignees:
       - "ariperez"
-    labels:
-      - "npm"
-      - "dependabot"
     open-pull-requests-limit: 10
   - package-ecosystem: "github-actions"
     directory: "/"
