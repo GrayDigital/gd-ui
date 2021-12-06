@@ -7,16 +7,15 @@ version: 2
 updates:
   - package-ecosystem: "npm"
     directory: "/"
+    target-branch: "dependabot-staging"
     schedule:
       interval: "daily"
     assignees:
       - "ariperez"
-    labels:
-      - "npm"
-      - "dependabot"
     open-pull-requests-limit: 10
   - package-ecosystem: "github-actions"
     directory: "/"
+    target-branch: "dependabot-staging"
     schedule:
       interval: "daily"
     assignees:
