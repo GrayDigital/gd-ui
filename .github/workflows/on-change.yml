@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.0
+<<<<<<< Updated upstream
       # - name: Lint Code Base
       #   uses: github/super-linter@v4.8.4
       #   env:
@@ -28,5 +29,12 @@ jobs:
         with:
           path: ~/.cache/trunk
           key: trunk-${{ runner.os }}
+=======
+      # - name: Cache Linters/Formatters
+      #   uses: actions/cache@v2
+      #   with:
+      #     path: ~/.cache/trunk
+      #     key: trunk-${{ runner.os }}
+>>>>>>> Stashed changes
       - name: Trunk Check
         uses: trunk-io/trunk-action@v0.3.0-beta

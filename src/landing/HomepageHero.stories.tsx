@@ -17,10 +17,7 @@ const Template: ComponentStory<typeof HomepageHero> = (args) => {
 export const DefaultHomepageHeroSection = Template.bind({});
 
 DefaultHomepageHeroSection.args = {
-  link: {
-    text: "Some Homepage Link",
-    target: "/somewhere",
-  },
+  Link: () => <a href={"/somewhere"}>{"Some Homepage Link"}</a>,
   title:
     "Gray is a human-centered digital services company using design and technology to transform critical government services. ",
   subtitle:

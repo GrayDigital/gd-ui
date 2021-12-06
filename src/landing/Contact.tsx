@@ -1,8 +1,6 @@
 import React from "react";
 
-interface Props {}
-
-export const Contact = ({}: Props) => {
+export const Contact = () => {
   return (
     <div>
       <div>Contact section here</div>

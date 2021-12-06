@@ -32,33 +32,28 @@
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
     "@snek-at/storybook-addon-chakra-ui": "1.0.0-beta.2",
+<<<<<<< Updated upstream
     "@storybook/addon-actions": "^6.4.1",
     "@storybook/addon-essentials": "^6.4.1",
     "@storybook/addon-links": "^6.4.1",
     "@storybook/node-logger": "^6.4.1",
     "@storybook/react": "^6.4.1",
+=======
+    "@storybook/addon-actions": "^6.4.4",
+    "@storybook/addon-essentials": "^6.4.4",
+    "@storybook/addon-links": "^6.4.4",
+    "@storybook/node-logger": "^6.4.4",
+    "@storybook/react": "^6.4.4",
+>>>>>>> Stashed changes
     "@types/node": "^16.11.11",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.5.0",
-    "@typescript-eslint/parser": "^5.5.0",
-    "conventional-changelog": "^3.1.24",
-    "conventional-changelog-conventionalcommits": "^4.6.1",
-    "eslint": "^8.3.0",
-    "eslint-config-airbnb-typescript": "^16.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.27.1",
     "framer-motion": "^4",
-    "prettier": "2.5.0",
-    "prettier-eslint": "^13.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-focus-lock": "^2.5.2",
     "react-icons": "^4.3.1",
-    "react-remove-scroll": "^2.4.3",
-    "typescript": "^4.5.2"
+    "react-remove-scroll": "^2.4.3"
   },
   "publishConfig": {
     "@graydigital": "https://npm.pkg.github.com",
@@ -67,5 +62,9 @@
   },
   "optionalDependencies": {
     "fsevents": "^2.3.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.5.0",
+    "typescript": "^4.5.2"
   }
 }

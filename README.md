@@ -6,7 +6,7 @@
 
 <!-- markdownlint-restore -->
 
-> Project Board: https://github.com/orgs/graydigital/projects/2/views/4?layout=board
+> [Project Board](https://github.com/orgs/graydigital/projects/2/views/4?layout=board)
 
 ## Goals
 

@@ -86,6 +86,7 @@ const Transition = (props: HTMLMotionProps<"div"> & { in?: boolean }) => {
 
 export const MobileNav = () => {
   const [show, { toggle, off }] = useBoolean();
+  // trunk-ignore(eslint/no-undef)
   const ref = React.useRef<HTMLDivElement>(null);
   useFocusOnShow(ref, { visible: show, shouldFocus: true });
 

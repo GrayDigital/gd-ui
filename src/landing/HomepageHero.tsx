@@ -3,12 +3,12 @@ import { Box, Heading, Stack } from "@chakra-ui/react";
 import { SectionButton } from "../shared/Button/SectionButton";
 
 interface Props {
-  link: { text: string; target: string };
+  Link: any;
   Image: any;
   title: string;
   subtitle: string;
 }
-export const HomepageHero = ({ Image, title, subtitle, link }: Props) => {
+export const HomepageHero = ({ Image, title, subtitle, Link }: Props) => {
   return (
     <Box as="section" color="white" pt="5.5rem" pb="2">
       <Box mx="auto" px={{ base: "6", md: "8" }}>
@@ -54,7 +54,7 @@ export const HomepageHero = ({ Image, title, subtitle, link }: Props) => {
           spacing="4"
         >
           <SectionButton colorScheme="light">
-            <a href={link.target}>{link.text}</a>
+            <Link />
           </SectionButton>
         </Stack>
       </Box>
