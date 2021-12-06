@@ -4,7 +4,7 @@ cli:
 lint:
   enabled:
     - actionlint@1.6.8
-    - eslint@8.3.0
+    - eslint@7.32.0
     - gitleaks@7.6.1
     - hadolint@2.8.0
     - markdownlint@0.29.0
